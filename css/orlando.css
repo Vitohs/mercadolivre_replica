@@ -1,6 +1,10 @@
 *
 {
     font-family: 'Helvetica', sans-serif;
+    /* box-sizing: border-box;
+    padding: 0;
+    margin: 0; */
+   /* deixar no freezer por enquanto, ta quebrando a home kk */
 }
 body
 {
@@ -80,13 +84,13 @@ h1
 h2
 {
     font-size: 30px;
-    margin-top: 10px;
+    margin-top: 15px;
     margin-left: 10px;
 }
 h3
 {
     position: relative;
-    top: -20px;
+    top: -0px;
     margin-left: 10px;
     color: rgb(120, 163, 120);
 }

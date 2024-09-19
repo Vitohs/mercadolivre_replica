@@ -4,12 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/orlando.css">
+    <link rel="stylesheet" href="/css/MariaLuiza4.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Helvetica">
     <title>Formulario</title>
 </head>
 <body>
-    <form action="#" method="get">
+    <header>
+        <img class="logo" src="/img/Mercado-Livre-Logo.png">
+         <h2>
+            <a href="index.html">
+                Voltar
+            </a>
+         </h2>
+    </header>
+
+    <form class="trikas" id="formee" action="/php/frei.php" method="post">
+        <h1>
+            Crie uma conta para poder efetuar a compra
+        </h1>
+        <label class="email" >email
+            <input class="botao" type="email" name="email" placeholder="Insira um e-mail">
+        </label>
         
+        <label class="senha" >senha
+            <input class="botao2" type="password" name="senha" id="senha" placeholder="Insira uma senha">
+        </label>
+
+        <label class="senha2" > Confirme a Senha
+            <input class="botao3" type="password" name="senha2" id="senha2" placeholder="Insira novamente">
+        </label>
+        <span id="escrita" class="error"></span>
+        <input class="nobru" type="submit" value="Cadastr-se">
+        <input class="Limpar" type="reset" value="Limpar">
     </form>
+    <script src="javascript/sani.js"></script>
 </body>
 </html>
