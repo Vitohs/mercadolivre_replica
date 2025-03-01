@@ -1,0 +1,139 @@
+*
+{
+    font-family: 'Helvetica', sans-serif;
+    /* box-sizing: border-box;
+    padding: 0;
+    margin: 0; */
+   /* deixar no freezer por enquanto, ta quebrando a home kk */
+}
+body
+{
+    background-color: #EBEBEB;
+}
+.cabeca
+{
+    position: relative;
+    top: -10px;
+    background-color: #FFE600;
+    width: 100%;
+    height: 150px;
+}
+.logo
+{   
+    margin-left: 10%;
+    width: 200px;
+    height: 100px;
+}
+.pesquisa
+{
+    border: 1px solid white;
+    position: relative;
+    top: -40px;
+    margin-left: 2%;
+    height: 40px;
+    width: 600px;
+}
+.menu
+{
+    margin-top: -10px;
+    text-align: center;
+    display: flex; /* Para alinhar os itens horizontalmente */
+    gap: 20px; /* Espaçamento entre os itens */
+    margin-left: 17%;
+}
+.menu2
+{
+    margin-top: -50px;
+    text-align: center;
+    display: flex; /* Para alinhar os itens horizontalmente */
+    gap: 20px; /* Espaçamento entre os itens */
+    margin-left: 80%;
+}
+p:hover
+{
+    cursor: pointer;
+}
+.produto
+{
+    background-color: white ;
+    margin-top: 20px;
+    margin-left: 20%;
+    width: 60%;
+    height: 800px;
+}
+.foto
+{
+    margin-top: 150px;
+    margin-left: 10%;
+    width: 450px;
+    height: 300px;
+}
+.espc
+{
+    position: relative;
+    top: -400px;
+    margin-left: 700px;
+    border: 1px, solid #EBEBEB;
+    height: 600px;
+    width: 400px;
+}
+h1
+{
+    margin-left: 10px;
+}
+h2
+{
+    font-size: 30px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+h3
+{
+    position: relative;
+    top: -0px;
+    margin-left: 10px;
+    color: rgb(120, 163, 120);
+}
+h4
+{
+    margin-left: 10px;
+}
+.botija
+{
+    position: relative;
+    top: -300px;
+    border: 1px solid black;
+    height: 80px;
+    width: 80px;
+}
+.boti
+{
+    position: relative;
+    top: -170px;
+    margin-left: -90px;
+    border: 1px solid black;
+    height: 80px;
+    width: 80px;
+}
+.boti:hover
+{
+    cursor: pointer;
+}
+.botija:hover
+{
+    cursor: pointer;
+}
+.Compre
+{
+    border: 1px solid white;
+    background-color: blue;
+    color: white;
+    width: 300px;
+    margin-top: 5%;
+    margin-left: 7%;
+    height: 40px;
+}
+.Compre:hover
+{
+    cursor:pointer;
+}
